@@ -45,7 +45,7 @@ body {
 .RussRicci, .home, .about-me {
   font-family: noto sans;
   font-size: 20px;
-  text-shadow: 2px 2px 4px #eeebeb
+  text-shadow: 2px 2px 4px #f4fefd;
 }
 
 .RussRicci {
@@ -54,12 +54,12 @@ body {
 
 .home {
   flex: 1; 
-  color: #eeebeb;
+  color: #f4fefd;
   text-decoration: none;
 }
 
 .home:visited, .home:active {
-  color: #eeebeb;
+  color: #f4fefd;
   text-decoration: none;
 }
 
@@ -99,6 +99,6 @@ body {
   padding-right: 40px;
   align-items: center;
   flex-direction: column;
-  color: #eeebeb;
+  color: #f4fefd;
 }
 
