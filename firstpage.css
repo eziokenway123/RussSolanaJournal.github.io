@@ -28,7 +28,7 @@ body {
   margin: 0;
   font-family: roboto, arial;
   padding-bottom: 5000px;
-  
+  min-width: 1345px;
   
 }
 
@@ -112,8 +112,8 @@ body {
 .about-me-description {
   display: flex;
   background-color: #1b2223;
-  min-width: 1366px;
-  max-width: 1920px;
+  min-width: 1345px;
+  
 
   z-index: 1;
   justify-content: center;
@@ -130,7 +130,6 @@ body {
 
 .week-one {
   min-height: 500px;
-  max-height: 700px;
   background-image: url("images/about-me-and-weekly-journals/nature.png");
   display: flex;
   justify-content: center;
@@ -140,7 +139,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
   position: relative
 }
 
