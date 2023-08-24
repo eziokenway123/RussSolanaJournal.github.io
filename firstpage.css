@@ -162,7 +162,9 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  min-width: 1366px;
+  max-width: 1366px;
+  min-width: 1000px;
+
 }
 
 .week-one-chess {
@@ -172,5 +174,5 @@ body {
 }
 
 .week-one-description {
-  min-width: 1000px;
+  min-width: 750px;
 }
