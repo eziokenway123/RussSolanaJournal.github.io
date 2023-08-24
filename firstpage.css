@@ -72,7 +72,7 @@ body {
 }
 
 .about-myself {
-  width: 150%;
+  position: relative;
   min-height: 700px;
   background-image: url("images/about-me-and-weekly-journals/90172.jpg");
   background-attachment: fixed;
@@ -104,6 +104,37 @@ body {
   align-items: center;
   flex-direction: column;
   color: #f4fefd;
+
+}
+
+
+.week-one {
+  min-height: 500px;
+  max-height: 700px;
+  background-image: url("images/about-me-and-weekly-journals/nature.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  z-index: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative
+}
+
+.week-one-box {
+  border-style: solid;
+  border-radius: 2px;
+  font-size: 40px;
+  padding: 10px;
+  border-width: 6px;
+  color:#0ef6cc;
+  text-shadow:2px 2px 6px #0ef6cc;
+  background: rgba(0,0,0,0.5);
+  background-size: 70px;
+  background: opacity
 
 }
 
