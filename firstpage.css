@@ -155,13 +155,13 @@ body {
 }
 
 .week-one-text {
-  
+  padding-right: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  max-width: 1366px;
   min-width: 1000px;
+  padding-left: 20px;
 
 }
 
