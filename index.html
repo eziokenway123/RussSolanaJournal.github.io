@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Montserrat:wght@500;700&family=Noto+Sans:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
 <body>
@@ -21,8 +22,8 @@
     
     </div>
 
-  <div class="about-me-description">
-    <p style="font-size: 80px; text-shadow: 1px 1px 5px #eeebeb; font-family: montserrat;">
+  <div class="about-me-description" data-aos="fade-up">
+    <p style="font-size: 80px; text-shadow: 1px 1px 5px #eeebeb; font-family: montserrat;" >
       My life and my secrets revealed!
     </p>
 
@@ -35,4 +36,11 @@
     </p>
     <p style="font-size: 18px;">"The value of moving slow is that one can see the world clearly"</p>
   </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
 </body>
