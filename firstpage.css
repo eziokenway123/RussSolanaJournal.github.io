@@ -29,7 +29,6 @@ body {
   font-family: roboto, arial;
   padding-bottom: 5000px;
   min-width: 1345px;
-  
 }
 
 .header {
@@ -112,7 +111,7 @@ body {
 .about-me-description {
   display: flex;
   background-color: #1b2223;
-  max-width: 1345px;
+  width: 100%;
   
 
   z-index: 1;
