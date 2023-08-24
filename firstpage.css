@@ -28,7 +28,7 @@ body {
   margin: 0;
   font-family: roboto, arial;
   padding-bottom: 5000px;
-  max-width: 1345px;
+  min-width: 1345px;
   
 }
 
@@ -43,7 +43,7 @@ body {
   padding-left: 10px;
   position: fixed;
   z-index: 100;
-  
+  padding-right: 10px;
 }
 
 .RussRicci, .home, .about-me {
