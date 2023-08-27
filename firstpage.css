@@ -190,6 +190,12 @@ body {
   border-radius: 3px;
 }
 
+.week-two-div {
+  background-color: #3a4f50;
+  width: 1fr;
+  height: 1200px;
+}
+
 .week-two{
   display: flex;
   width: 1fr;
