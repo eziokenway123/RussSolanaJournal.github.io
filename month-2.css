@@ -2,18 +2,16 @@
   padding-top: 200px;
   display: flex;
   width: 80vw;
-  align-items: center;
-  justify-content: center;
   padding-left: 10vw;
 }
 
 .week-four-one-lol{
   color: #0ef6cc;
   font-size: 200px;
-  position: absolute;
-  margin-left: -1900px;
   font-weight: bold;
-  margin-top: -20px;
+  margin-top: 20px;
+  margin-right: -50px;
+  z-index: 1;
 }
 
 .week-four-box{
