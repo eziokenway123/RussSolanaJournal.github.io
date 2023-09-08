@@ -7,6 +7,16 @@
   padding-left: 10vw;
 }
 
+.week-four-one-lol{
+  color: #0ef6cc;
+  font-size: 200px;
+  display: fixed;
+  position: absolute;
+  margin-left: -1900px;
+  font-weight: bold;
+  margin-top: -20px;
+}
+
 .week-four-box{
   padding-left: 30px;
 }
@@ -17,7 +27,25 @@
 }
 
 .week-four-title{
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-weight: bold;
+  padding-left: 100px;
+}
 
+.week-four-divider{
+  background-color: #0ef6cc;
+  width: 1300px;
+  height: 4px;
+  margin-bottom: 30px;
+  margin-left: -100px;
+  border-radius: 3px;
+  
 }
 
 
+.week-four-journal-entry{
+  line-height: 1.5;
+  font-size: 20px;
+  
+}
