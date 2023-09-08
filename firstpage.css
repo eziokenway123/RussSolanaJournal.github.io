@@ -329,7 +329,7 @@ a.home-button:hover {
   background-color: #3a4f50;
   padding: 0 60px 0 60px;
   align-items: center;
-
+  height: 500px;
   display: flex;
   border-radius: 5px;
   flex-direction: column;
