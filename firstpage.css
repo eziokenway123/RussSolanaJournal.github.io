@@ -28,7 +28,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: roboto, arial;
-  padding-bottom: 5000px;
+  padding-bottom: 100px;
   min-width: 1345px;
 }
 
@@ -360,4 +360,23 @@ a.home-button:hover {
 
 .week-three-description{
   width: 1fr;
+}
+
+.page-selector{
+  display: grid;
+  grid-template-columns: 230px 20px 20px 250px;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  font-size: 50px;
+  column-gap: 40px;
+  margin-top: 90px;
+  transition: .5ms;
+  
+}
+
+.page-selector a:hover{
+  color: #0ef6cc;
+  font-size: 40px;
+  
 }
