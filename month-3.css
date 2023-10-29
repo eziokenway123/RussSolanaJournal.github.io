@@ -36,23 +36,37 @@
 
 
 .week-8-title-picture{
-  width: 500px;
+  width: 100vw;
   object-fit: none;
   height: 200px;
   border-style: solid;
   border-radius: 10px;
   border-color: #3a4f50;
   position: absolute;
-  left: 39%;
-  top: 0;
+  
+  
 }
 
 .week-8-inside{
   position: absolute;
   top: 50%;
-  left: 47%;
-  z-index: 100;
+  left: 50%;
+  z-index: 1;
   font-size: 60px;
   text-shadow: 2px 2px 20px #f4fefd;
   font-weight: bold;
+}
+
+.week-8-text-div{
+  margin-top: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.week-8-text{
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
