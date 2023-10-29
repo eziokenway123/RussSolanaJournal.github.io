@@ -364,7 +364,7 @@ a.home-button:hover {
 }
 
 .page-selector{
-  display: grid;
+  display: flex;
   grid-template-columns: 230px 20px 20px 250px;
   justify-content: center;
   align-items: center;
@@ -374,10 +374,27 @@ a.home-button:hover {
   margin-top: 150px;
   transition: .5ms;
   
+  
 }
 
 .page-selector a:hover{
   color: #0ef6cc;
-  font-size: 40px;
+  text-shadow: 2px 2px 20px #0ef6cc ;
+  font-size: 80px;
+  
+}
+
+.sticky {
+  position: flex;
+  
+  margin-right: 50px;
+}
+
+.sticky:hover{
+  cursor:pointer;
+  color: #0ef6cc;
+  text-shadow: 2px 2px 20px #0ef6cc ;
+  transform: scale(1.5);
+  z-index: 999;
   
 }

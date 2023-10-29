@@ -46,3 +46,90 @@
   font-size: 12px;
   
 }
+
+
+.week-five-parent-div{
+  justify-content: center;
+  display: flex;
+}
+
+.week-five-entry-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  width: 80vw;
+  margin-top: 60px;
+  
+}
+
+.week-five-title{
+  font-weight: bold;
+  margin: 20px;
+  font-size: 50px;
+  
+}
+
+.week-six-parent-div{
+  align-items: center;
+  margin-top: 100px;
+  justify-content: center;
+  display: flex;
+  
+}
+
+.week-six-title{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.week-six-entry-div{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  
+}
+
+.week-six-divider{
+  height: 7px;
+  width: 80vw;
+  border-radius: 3px;
+  background-color: #0ef6cc;
+  margin-bottom: 20px;
+}
+
+.week-seven-picture {
+  height: 500px;
+  margin-left: 40px;
+}
+
+.week-seven-divider{
+  height: 7px;
+  width: 70vw;
+  border-radius: 3px;
+  background-color: #0ef6cc;
+  margin-bottom: 20px;}
+
+
+
+
+  .week-seven-entry-div{
+    width: 70vw;
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .week-seven-parent-div{
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    
+  }

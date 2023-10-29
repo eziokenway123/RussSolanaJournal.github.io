@@ -1,0 +1,58 @@
+.hannibal-barca-image{
+  
+
+
+}
+
+.hannibal-barca-div{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  padding-top: 150px;
+}
+
+.hannibal-barca-text{
+  font-size: 40px;
+  margin-top: 20px;
+  text-shadow: 2px 2px 20px #f4fefd;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #0ef6cc, 0 0 20px #0ef6cc, 0 0 30px #0ef6cc, 0 0 40px #0ef6cc, 0 0 50px #0ef6cc;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #0ef6cc, 0 0 30px #0ef6cc, 0 0 40px #0ef6cc, 0 0 50px #0ef6cc, 0 0 60px #0ef6cc;}
+}
+
+.week-8-title-parent{
+  display: flex;
+  margin-top: 300px;
+  position: relative;
+}
+
+
+.week-8-title-picture{
+  width: 500px;
+  object-fit: none;
+  height: 200px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #3a4f50;
+  position: absolute;
+  left: 39%;
+  top: 0;
+}
+
+.week-8-inside{
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  z-index: 100;
+  font-size: 60px;
+  text-shadow: 2px 2px 20px #f4fefd;
+  font-weight: bold;
+}
